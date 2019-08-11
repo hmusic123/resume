@@ -19,8 +19,11 @@
           <div class="intro">微信公众号</div>
         </el-col>
         <el-col :span="6">
-          <a href="https://weibo.com/u/7094473259" target="_blank">
-            <img src="../../static/img/weibo.png" style="width:1.4rem" />
+          <a  target="_blank">
+            <img src="../../static/img/weibo.png" style="width:1.4rem" 
+             onMouseOver="this.src='../../static/img/qidai.png'"
+            onMouseOut="this.src='../../static/img/weibo.png'"
+            />
             <div class="intro">新浪官方微博号</div>
           </a>
         </el-col>
@@ -28,14 +31,17 @@
           <img
             src="../../static/img/douyin.png"
             style="width:1.4rem;"
-            onMouseOver="this.src='../../static/img/laoxiangnong_douyin.png'"
+            onMouseOver="this.src='../../static/img/qidai.png'"
             onMouseOut="this.src='../../static/img/douyin.png'"
           />
           <div class="intro">抖音认证号</div>
         </el-col>
         <el-col :span="6">
           <a href="https://www.toutiao.com/c/user/1675294631014988/" target="view_window">
-            <img src="../../static/img/toutiao.png" style="width:1.4rem" />
+            <img src="../../static/img/toutiao.png" style="width:1.4rem"
+             onMouseOver="this.src='../../static/img/qidai.png'"
+            onMouseOut="this.src='../../static/img/toutiao.png'"
+             />
             <div class="intro">今日头条认证号</div>
           </a>
         </el-col>
@@ -52,7 +58,7 @@
             <img
               src="../../static/img/shanzhidao_img.png"
               style="width:1.4rem"
-              onMouseOver="this.src='../../static/img/laoxiangnong_xiaochengxu.png'"
+              onMouseOver="this.src='../../static/img/qidai.png'"
               onMouseOut="this.src='../../static/img/shanzhidao_img.png'"
             />
             <div class="intro">善之道茶油坊</div>
@@ -60,7 +66,10 @@
 
           <el-col :span="12">
             <a href="http://www.jd.com" target="view_window">
-              <img src="../../static/img/jingdong.png" style="width:1.4rem" />
+              <img src="../../static/img/jingdong.png" style="width:1.4rem" 
+              onMouseOver="this.src='../../static/img/qidai.png'"
+              onMouseOut="this.src='../../static/img/jingdong.png'"
+              />
               <div class="intro">京东旗舰店</div>
             </a>
           </el-col>
@@ -93,7 +102,7 @@
       <el-button style="background:rgba(201,160,99,1);color:#ffffff;width:1.3rem">申请加入</el-button> -->
     </div>
     <!-- 小屏幕 -->
-    <div class="minscreen">
+    <div class="minscreen" style="margin-top:1.12rem;">
       <div class="title">关注我们</div>
       <!-- <img src='../../static/img/connect-follow.png' style="margin-top:100px" > -->
       <div class="text">更多精彩内容 尽在自媒体平台～</div>
@@ -108,8 +117,11 @@
           <div class="intro">微信公众号</div>
         </el-col>
         <el-col :span="12" style="margin-bottom:0.79rem">
-          <a href="https://weibo.com/u/7094473259" target="_blank">
-            <img src="../../static/img/weibo.png" style="width:1.4rem" />
+          <a  target="_blank">
+            <img src="../../static/img/weibo.png" style="width:1.4rem" 
+             onMouseOver="this.src='../../static/img/qidai.png'"
+              onMouseOut="this.src='../../static/img/weibo.png'"
+            />
             <div class="intro">新浪官方微博号</div>
           </a>
         </el-col>
@@ -117,14 +129,17 @@
           <img
             src="../../static/img/douyin.png"
             style="width:1.4rem;"
-            onMouseOver="this.src='../../static/img/laoxiangnong_douyin.png'"
+            onMouseOver="this.src='../../static/img/qidai.png'"
             onMouseOut="this.src='../../static/img/douyin.png'"
           />
           <div class="intro">抖音认证号</div>
         </el-col>
         <el-col :span="12">
-          <a href="https://www.toutiao.com/c/user/1675294631014988/" target="view_window">
-            <img src="../../static/img/toutiao.png" style="width:1.4rem" />
+          <a  target="view_window">
+            <img src="../../static/img/toutiao.png" style="width:1.4rem" 
+            onMouseOver="this.src='../../static/img/qidai.png'"
+              onMouseOut="this.src='../../static/img/toutiao.png'"
+            />
             <div class="intro">今日头条认证号</div>
           </a>
         </el-col>
@@ -140,15 +155,18 @@
             <img
               src="../../static/img/shanzhidao_img.png"
               style="width:1.4rem"
-              onMouseOver="this.src='../../static/img/laoxiangnong_xiaochengxu.png'"
-              onMouseOut="this.src='../../static/img/laoxiangnong.png'"
+              onMouseOver="this.src='../../static/img/qidai.png'"
+              onMouseOut="this.src='../../static/img/shanzhidao_img.png'"
             />
             <div class="intro">善之道茶油坊</div>
           </el-col>
 
           <el-col :span="12">
-            <a href="http://www.jd.com" target="view_window">
-              <img src="../../static/img/jingdong.png" style="width:1.4rem" />
+            <a  target="view_window">
+              <img src="../../static/img/jingdong.png" style="width:1.4rem" 
+               onMouseOver="this.src='../../static/img/qidai.png'"
+              onMouseOut="this.src='../../static/img/jingdong.png'"
+              />
               <div class="intro">京东旗舰店</div>
             </a>
           </el-col>

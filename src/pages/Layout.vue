@@ -2,23 +2,24 @@
   <div>
     <el-container style="width100%;">
       <el-header class="layoutContent" :class="lineVisiblity==1?'line' :null ">
-        <div class="pageHeader_first">
-          <div class="first_left">
-            <div class="maximg" @click="changeTab(0, 'home')">
-              <img src="../../static/min_img/logo.png" style="width:1.4rem" />
-            </div>
-            <div class="minimg">
-              <img src="../../static/min_img/logo.png" style="width:1.4rem" />
-            </div>
-          </div>
-          <div class="mintitle" @click="changevis" >
+        <div class="pageHeader_first" >
+            <div class="mintitle" @click="changevis" style="float:right" >
             <img
               src="../../static/min_img/anniu.png"
-             
+            style="width:0.4rem"
               v-if="!changevisiblity"
             />
             <i class="el-icon-close" v-else></i>
           </div>
+          <div class="first_left">
+            <div class="maximg" @click="changeTab(0, 'home')">
+              <img src="../../static/min_img/logo.png" style="width:1.4rem" />
+            </div>
+            <div class="minimg" >
+              <img src="../../static/min_img/logo.png" style="width:1.4rem" />
+            </div>
+          </div>
+          
           <div class="navTabss">
             <div
               v-for="(item,index) in titleArr"
@@ -33,13 +34,15 @@
               </div>
             </div>
           </div>
-
-          <div style="height:50%;line-height:0.2rem;" class="phone">
+        <div style="height:1rem;display:flex;align-items: center">
+            <div style="line-height:0.2rem;" class="phone" >
             <div
-              style="color:#C9A063;text-align:left;font-size:18px;margin-top:0.25rem"
+              style="color:#C9A063;text-align:left;font-size:18px;padding:0.1rem 0"
             >400-633-8918</div>
             <div style="color:#C9A063;text-align:left;font-size:10px">咨询热线</div>
           </div>
+        </div>
+          
         </div>
       </el-header >
       <div class="min_dis" v-if="changevisiblity">
@@ -68,14 +71,14 @@
                   <span class="footer_text_title">关注我们</span>
                   <span class="footer_text_title1">
                     <a
-                      href="https://weibo.com/u/7094473259"
+                     
                       target="_blank"
                       class="footer_text_title11"
                     >善之道微信公众号</a>
                   </span>
                   <span class="footer_text_title1">
                     <a
-                      href="https://weibo.com/u/7094473259"
+                     
                       target="_blank"
                       class="footer_text_title11"
                     >善之道官方微博</a>
@@ -83,11 +86,11 @@
                 </div>
                 <div class="foot_text">
                   <span class="footer_text_title">线上商城</span>
-                  <span class="footer_text_title1">天猫商城</span>
-                  <!-- <span class="footer_text_title1">
-                    <a href="http://www.jd.com" target="_black" class="footer_text_title11">京东商城</a>
+                  <!-- <span class="footer_text_title1">天猫商城(敬请期待)</span> -->
+                  <span class="footer_text_title1">
+                    <a  target="_black" class="footer_text_title11">京东商城</a>
                   </span>
-                  <span class="footer_text_title1">善之道茶油坊</span> -->
+                 <!--  <span class="footer_text_title1">善之道茶油坊</span> -->
                 </div>
               </div>
 
@@ -101,7 +104,7 @@
 
                 <div class="footer_text">
                   <div class="code_right">
-                    <img src="../../static/img/xiaochengxu.jpg" />
+                    <img src="../../static/img/szdxiaochengxu.png" />
                   </div>
                   <div class="textcode_right">微信小程序</div>
                 </div>
@@ -126,19 +129,19 @@
                 <div style="width:100%;display:flex;flex-direction: column;text-align:left">
                   <span class="footTitle_min">关注我们</span>
                   <a
-                    href="https://weibo.com/u/7094473259"
+                    
                     target="_blank"
                     class="footText_min"
-                  >善之道微信公众号</a>
+                  >今日头条认证号</a>
                   <a
-                    href="https://www.toutiao.com/c/user/1675294631014988/"
+                    
                     target="_blank"
                     class="footText_min"
                   >善之道官方微博</a>
                 </div>
                 <div style="width:100%;display:flex;flex-direction: column;text-align:left">
                   <span class="footTitle_min">线上商城</span>
-                  <a class="footText_min" href="http://www.jd.com" target="_black">京东商城</a>
+                  <a class="footText_min" target="_black">京东商城</a>
                   <!-- <a class="footText_min" href="http://www.jd.com" target="_black">天猫商城</a>
                   <a class="footText_min" href="http://www.jd.com" target="_black">善之道茶油坊</a>-->
                 </div>
@@ -171,7 +174,7 @@
               </div>
               <div style="width:40%;display:flex;flex-direction: column;">
                 <div class="foot_img_contain_min">
-                  <img class="foot_img_min" src="../../static/img/xiaochengxu.jpg" />
+                  <img class="foot_img_min" src="../../static/img/szdxiaochengxu.png" />
                 </div>
                 <span class="footText" style="text-align:center">善之道茶油坊小程序</span>
               </div>
@@ -267,10 +270,12 @@ export default {
       tabIndex = 1;
     } else if (this.$route.name == "teause") {
       tabIndex = 2;
-    } else if (this.$route.name == "information") {
+    } 
+    // else if (this.$route.name == "information") {
+    //   tabIndex = 3;
+    // } 
+    else {
       tabIndex = 3;
-    } else {
-      tabIndex = 4;
     }
     this.tabIndex = tabIndex;
     console.log(11111, this.tabIndex);
@@ -315,12 +320,12 @@ export default {
           routerName: "teause",
           isSelect: false
         },
-        {
-          CH: "资讯动态",
-          // EN:'Dynamic information',
-          routerName: "information",
-          isSelect: false
-        },
+        // {
+        //   CH: "资讯动态",
+        //   // EN:'Dynamic information',
+        //   routerName: "information",
+        //   isSelect: false
+        // },
         {
           CH: "联系我们",
           // EN:'CONTACT US',
@@ -417,8 +422,10 @@ export default {
 <style lang='less' >
 .el-main,
 .el-footer {
-  padding: 0 !important;
-  width: 100%;
+    padding: 0 !important;
+    width: 100%;
+    box-sizing:border-box;
+   
   
 }
 
@@ -456,6 +463,7 @@ export default {
   text-align: left;
   display: flex;
   flex-direction: column;
+  
 }
 .footer_text {
   display: flex;
@@ -487,10 +495,10 @@ export default {
  
 }
 
-.footer_text_title1:hover,
-.footer_text_title11:hover {
-  color: #c9a063 ;
-}
+// .footer_text_title1:hover,
+// .footer_text_title11:hover {
+//   color: #c9a063 ;
+// }
 .code_right {
   width: 1.3rem;
   text-align: center;
@@ -528,6 +536,8 @@ export default {
   .max_main {
     // margin-top:1rem;
     width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
   }
   .pageHeader_first {
     display: flex;
@@ -541,6 +551,7 @@ export default {
   }
   .mintitle {
     display: none;
+   
   }
   .minimg,
   .min_dis {
@@ -870,12 +881,12 @@ export default {
   }
   .pageHeader_first {
     height: 100%;
-    width: 100% ;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 0.24rem;
+    width: 7rem !important;  
     box-sizing: border-box;
+    // border:1px solid red;
+    margin:0 auto;
   }
+  
   .footText {
     margin-bottom: 0.2rem;
     height: 0.15rem;
@@ -894,6 +905,7 @@ export default {
     background-color: rgba(250, 250, 250, 1);
     box-sizing: border-box;
     padding-left: 0.74rem;
+    box-sizing: border-box;
   }
   .footTitle_min {
     font-size: 0.36rem;
@@ -1085,6 +1097,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height:1.12rem;
   }
   .pageHeader {
     width: 100% !important;
@@ -1101,7 +1114,7 @@ export default {
   .mintitle {
     // width:1.86rem;
    display: flex;
-
+    height:1.12rem;
     font-size: 0.32rem;
     font-family: \5b8b\4f53, tahoma, arial, sans-serif;
     font-weight: 400;
@@ -1121,6 +1134,7 @@ export default {
     height: 100%;
     display: flex;
     align-items: center;
+    float: left;
   }
   .min_dis {
     width: 100%;

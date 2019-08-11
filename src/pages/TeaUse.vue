@@ -521,7 +521,9 @@ export default {
 </script>
 
 <style >
+
 @media only screen and (max-width: 750px) {
+    
   .max_other {
     margin: 0.77rem auto 0;
   }
@@ -628,6 +630,7 @@ export default {
     height: 50%;
     line-height: 100%;
     box-sizing: border-box;
+    margin:0;
   }
   .min_use_part2_my_1 {
     width: 2.45rem;
@@ -883,7 +886,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    background-size: 100% 100%;
     height: 2.64rem;
   }
   .max_use_btn {
@@ -944,8 +947,13 @@ export default {
     width: 100%;
     height: 50%;
     line-height: 100%;
-
+    margin:0;
+    
     box-sizing: border-box;
+  }
+  .max_use_part2_my_1_src:nth-child(1){
+      margin:  0.04rem 0 !important;
+     
   }
   .max_use_part2_my_1 {
     width: 1.36rem;

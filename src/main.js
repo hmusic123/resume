@@ -7,7 +7,7 @@ import router from './router'
 // import 'iview/dist/styles/iview.css';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
-import common from '@/common/common.js'
+
 import VueLazyload from 'vue-lazyload'  //引入这个懒加载插件
 import 'swiper/dist/css/swiper.css';
 import './rem'
@@ -28,6 +28,16 @@ Vue.config.productionTip = false
 //     next();
 //   }
 // })
+router.beforeEach((to, from, next) => {    
+  // chrome
+  document.body.scrollTop = 0
+  // firefox
+  document.documentElement.scrollTop = 0
+  // safari
+  window.pageYOffset = 0
+  next()
+})
+
 
 /* eslint-disable no-new */
 new Vue({

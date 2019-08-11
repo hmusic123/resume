@@ -9,10 +9,16 @@
           <!-- <div style="margin:20px"><img src='../../static/img/us_com_des.png'></div> -->
           <div class="conpany_intro" style="margin-bottom:0.2rem">公司简介</div>
           <div style="text-align:left;width:62.5%;margin:0 auto" class="about_title">
-            <p class="about_title_2">长沙中战茶油有限公司是一家专业从事茶油研发和销售的国家高新技术企业</p>
+            <p class="about_title_2"> 长沙中战茶油有限公司是一家专业从事茶油研发和销售的国家高新技术企业，于2018年12月注册成立，是中战华信资产管理集团有限公司的全资子公司</p>
 
-            <p class="about_title_2">于2018年12月注册成立，是中战华信资产管理集团有限公司的全资子公司</p>
-            <p class="about_title_2">长沙中战茶油有限公司现拥有善之道茶油品牌，采用百年老树，万粒挑一的选材标准，从源头严格把关质量，采用先进的物理低温压榨工艺</p>
+            <p class="about_title_2">长沙中战茶油有限公司现拥有善之道茶油品牌，采用百年老树，万粒挑一的选材标准，从源头严格把关质量</p>
+            <p class="about_title_2">采用先进的物理低温压榨工艺，以做100%纯正山茶油为品牌使命</p>
+          
+                           
+
+
+                        
+          
           </div>
         </div>
 
@@ -43,12 +49,12 @@
         <div style="width:62.5%;display:flex;margin:0 auto;">
           <!-- 第一个框 -->
           <div class="about_part2_kuan" style=" position:relative">
-            <div style="width:1.99rem;position:absolute;left:0;top:28%">
+            <div style="width:1.99rem;position:absolute;left:0.04rem;top:28%">
               <img src="../../static/img/1.png" style="width:100%" />
             </div>
 
-            <div style="display:flex;width:52%; justify-content: center;align-items: center;">
-              <span style="font-size:0.14rem;padding:0 0.05rem">
+            <div style="display:flex;width:52%; justify-content: center;align-items: center;" >
+              <span style="font-size:0.14rem;padding:0 0.05rem" class="about_part2_kuan_src">
                 <p>振</p>
                 <p>兴</p>
                 <p>油</p>
@@ -71,17 +77,17 @@
               </span>
             </div>
             <div style="width:24%;height:100%;">
-              <p
-                style="text-align:left;font-size:0.24rem;font-weight:900;color:rgba(0,0,0,1);padding-right:0.26rem;margin-top:0.3rem;height:0.25rem;line-height:0.2"
+              <p    class="xieti_1"
+                style="margin-top:0.2rem"
               >企</p>
-              <p class="xieti" style="height:0.25rem;line-height:0.2">业</p>
-              <p class="xieti" style="height:0.25rem;line-height:0.2">愿</p>
-              <p class="xieti" style="height:0.25rem;line-height:0.2">景</p>
+              <p class="xieti xieti_1" >业</p>
+              <p class="xieti xieti_1" >愿</p>
+              <p class="xieti xieti_1" >景</p>
             </div>
           </div>
 
           <div class="about_part2_kuan" style=" position:relative;margin:0 0.51rem">
-            <div style="width:1.99rem;position:absolute;left:0;top:28%">
+            <div style="width:1.99rem;position:absolute;left:0rem;top:28%">
               <img src="../../static/img/2.png" style="width:100%" />
             </div>
             <div style="display:flex;width:52%; justify-content: center;align-items: center;">
@@ -98,19 +104,19 @@
                 <p>油</p>
               </span>
             </div>
-            <div>
-              <p
-                style="text-align:right;font-size:0.24rem;font-weight:900;color:rgba(0,0,0,1);padding-right:0.28rem;margin-top:0.3rem;height:0.25rem;line-height:0.2"
+             <div style="width:24%;height:100%;">
+              <p    class="xieti_1"
+                style="margin-top:0.2rem"
               >企</p>
-              <p class="xieti" style="height:0.25rem;line-height:0.2">业</p>
-              <p class="xieti" style="height:0.25rem;line-height:0.2">宗</p>
-              <p class="xieti" style="height:0.25rem;line-height:0.2">旨</p>
+              <p class="xieti xieti_1" >业</p>
+              <p class="xieti xieti_1" >宗</p>
+              <p class="xieti xieti_1" >旨</p>
             </div>
           </div>
           <!-- 第三个框 -->
 
           <div class="about_part2_kuan" style=" position:relative">
-            <div style="width:1.99rem;position:absolute;left:0;top:28%">
+            <div style="width:1.99rem;position:absolute;left:0.01rem;top:28%">
               <img src="../../static/img/3.png" style="width:100%" />
             </div>
 
@@ -139,13 +145,13 @@
                 <p>念</p>
               </span>
             </div>
-            <div style="width:24%;height:100%;">
-              <p
-                style="text-align:left;font-size:0.24rem;font-weight:900;color:rgba(0,0,0,1);padding-right:0.26rem;margin-top:0.3rem;height:0.25rem;line-height:0.2"
+             <div style="width:24%;height:100%;">
+              <p    class="xieti_1"
+                style="margin-top:0.2rem"
               >企</p>
-              <p class="xieti" style="height:0.25rem;line-height:0.2">业</p>
-              <p class="xieti" style="height:0.25rem;line-height:0.2">使</p>
-              <p class="xieti" style="height:0.25rem;line-height:0.2">命</p>
+              <p class="xieti xieti_1" >业</p>
+              <p class="xieti xieti_1" >使</p>
+              <p class="xieti xieti_1" >命</p>
             </div>
           </div>
 
@@ -173,15 +179,14 @@
                 <p>人</p>
               </span>
             </div>
-            <div>
-              <p
-                style="text-align:right;
-                        font-size:0.24rem;font-weight:900;color:rgba(0,0,0,1);padding-right:0.28rem;margin-top:0.3rem;height:0.25rem;line-height:0.2"
+            <div style="width:24%;height:100%;">
+              <p    class="xieti_1"
+                style="margin-top:0.2rem"
               >核</p>
-              <p class="xieti" style="height:0.25rem;line-height:0.2">心</p>
-              <p class="xieti" style="height:0.25rem;line-height:0.2">价</p>
-              <p class="xieti" style="height:0.25rem;line-height:0.2">值</p>
-              <p class="xieti" style="height:0.25rem;line-height:0.2">观</p>
+              <p class="xieti xieti_1" >心</p>
+              <p class="xieti xieti_1" >价</p>
+              <p class="xieti xieti_1" >值</p>
+               <p class="xieti xieti_1" >观</p>
             </div>
           </div>
           <div class="about_part2_kuan" style="position:relative">
@@ -204,13 +209,14 @@
                 <p style="padding:0.1rem 0">务</p>
               </span>
             </div>
-            <div>
-              <p
-                style="text-align:right;font-size:0.24rem;font-weight:900;color:rgba(0,0,0,1);padding-right:0.28rem;margin-top:0.3rem;height:0.25rem;line-height:0.2"
+             <div style="width:24%;height:100%;">
+              <p    class="xieti_1"
+                style="margin-top:0.2rem"
               >经</p>
-              <p class="xieti" style="height:0.25rem;line-height:0.2">营</p>
-              <p class="xieti" style="height:0.25rem;line-height:0.2">理</p>
-              <p class="xieti" style="height:0.25rem;line-height:0.2">念</p>
+              <p class="xieti xieti_1" >营</p>
+              <p class="xieti xieti_1" >理</p>
+              <p class="xieti xieti_1" >念</p>
+               
             </div>
           </div>
         </div>
@@ -350,7 +356,7 @@
             </p>
             <p
               class="min_about_title_2"
-            >长沙中战茶油有限公司现拥有善之道茶油品牌，采用百年老树，万粒挑一的选材标准，从源头严格把关质量，采用先进的物理低温压榨工艺</p>
+            >长沙中战茶油有限公司现拥有善之道茶油品牌，采用百年老树，万粒挑一的选材标准，从源头严格把关质量，采用先进的物理低温压榨工艺，以做100%纯正山茶油为品牌使命</p>
           </div>
         </div>
       </div>
@@ -363,7 +369,7 @@
             <div class="min_about_img_kuang">
               <img src="../../static/min_img/1.png" style="width:100%" />
             </div>
-            <div class="min_xieti">
+            <div class="min_xieti" >
               <p class="xieti">企</p>
               <p class="xieti">业</p>
               <p class="xieti">愿</p>
@@ -612,15 +618,28 @@ export default {
 </script>
 <style lang="less" scoped>
 @media only screen and (min-width: 751px) {
- 
+    .about{
+        margin-top:1rem;
+        
+    }
+    .max_screen .banner{
+        margin:1.5rem auto 0.3rem;
+      
+    }
   .min_screen {
     display: none;
   }
-  .xieti {
+  .xieti_1 {
     text-align: left;
     font-size: 0.24rem;
     font-weight: 900;
+
     color: rgba(0, 0, 0, 1);
+   
+    font-size:0.24rem;
+    padding:0;
+    margin:0;
+    height:0.26rem;
   }
 }
 @media only screen and (max-width: 750px) {
@@ -696,16 +715,17 @@ export default {
         position: absolute;
         left: 0.6rem;
         top: 0.3rem;
-
-        display: flex;
-        flex-direction: column;
+        padding: 0;
+       
         .xieti {
+          
           text-align: left;
           font-size: 0.28rem;
           height: 25%;
           font-weight: 900;
           color: rgba(0, 0, 0, 1);
           margin-bottom: 0.03rem;
+          margin-top:0;
         }
       }
       .min_right {
@@ -823,6 +843,9 @@ div > p > span {
   border-radius: 0.04rem;
   //   background-size: 1.99rem 100%
 }
+.about_part2_kuan_src p{
+    margin-top:0;
+}
 .imgnoselected {
   width: 2rem;
   //   border: 0.02rem solid rgba(235, 235, 235, 1);
@@ -833,7 +856,7 @@ div > p > span {
 }
 .banner {
   width: 25%;
-  margin: 100px auto 0;
+  margin: 120px auto 0;
 
   img {
     width: 100%;

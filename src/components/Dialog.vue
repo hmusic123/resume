@@ -2,7 +2,7 @@
   <div id="dialog">
     <div class="border">
       <div @click="closeDialog" class="closeImg"></div>
-      <img src="../../static/img/xiaochengxu.jpg" style="margin-top:30px;margin-left:25px;height:350px;width:350px"/>
+      <img src="../../static/img/szdxiaochengxu.png" style="margin-top:30px;margin-left:25px;height:350px;width:350px"/>
     </div>
   </div>
 </template>
