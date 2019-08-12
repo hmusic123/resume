@@ -310,7 +310,7 @@
               </div>
               <div style="height:20%">
                 <span class="footer-title">长沙中战茶油有限公司</span>
-                <span class="footer-title">湖南省长沙市开福区玛丽莱珠宝大厦10楼 湘ICP备17029384号-1</span>
+                <span class="footer-title">湖南省长沙市开福区玛丽莱珠宝大厦10楼 湘ICP备19008789号-1</span>
               </div>
             </div>
           </div>

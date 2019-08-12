@@ -116,7 +116,7 @@
                 <span class="foot_last_left" style="margin-right:60px;">长沙中战茶油有限公司</span>
                 <span class="foot_last_left">地址：湖南省长沙市开福区玛丽莱珠宝大厦10楼</span>
               </div>
-              <div class="footer_last_right">湘ICP备17029384号-1</div>
+              <div class="footer_last_right">湘ICP备19008789号-1</div>
             </div>
           </div>
         </div>
@@ -183,7 +183,7 @@
             <div class="footer-title_min">长沙中战茶油有限公司</div>
             <div class="footer-title_min">湖南省长沙市开福区玛丽莱珠宝大厦10楼</div>
             <!-- <div class="footer-title_min">联系方式：4006338918</div> -->
-            <div class="footer-title_min">湘ICP备17029384号-1</div>
+            <div class="footer-title_min">湘ICP备19008789号-1</div>
           </div>
         </div>
       </el-footer>

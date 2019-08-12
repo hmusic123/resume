@@ -19,10 +19,12 @@
           <div class="intro">微信公众号</div>
         </el-col>
         <el-col :span="6">
-          <a  target="_blank">
-            <img src="../../static/img/weibo.png" style="width:1.4rem" 
-             onMouseOver="this.src='../../static/img/qidai.png'"
-            onMouseOut="this.src='../../static/img/weibo.png'"
+          <a target="_blank">
+            <img
+              src="../../static/img/weibo.png"
+              style="width:1.4rem"
+              onMouseOver="this.src='../../static/img/qidai.png'"
+              onMouseOut="this.src='../../static/img/weibo.png'"
             />
             <div class="intro">新浪官方微博号</div>
           </a>
@@ -38,10 +40,12 @@
         </el-col>
         <el-col :span="6">
           <a href="https://www.toutiao.com/c/user/1675294631014988/" target="view_window">
-            <img src="../../static/img/toutiao.png" style="width:1.4rem"
-             onMouseOver="this.src='../../static/img/qidai.png'"
-            onMouseOut="this.src='../../static/img/toutiao.png'"
-             />
+            <img
+              src="../../static/img/toutiao.png"
+              style="width:1.4rem"
+              onMouseOver="this.src='../../static/img/qidai.png'"
+              onMouseOut="this.src='../../static/img/toutiao.png'"
+            />
             <div class="intro">今日头条认证号</div>
           </a>
         </el-col>
@@ -66,9 +70,11 @@
 
           <el-col :span="12">
             <a href="http://www.jd.com" target="view_window">
-              <img src="../../static/img/jingdong.png" style="width:1.4rem" 
-              onMouseOver="this.src='../../static/img/qidai.png'"
-              onMouseOut="this.src='../../static/img/jingdong.png'"
+              <img
+                src="../../static/img/jingdong.png"
+                style="width:1.4rem"
+                onMouseOver="this.src='../../static/img/qidai.png'"
+                onMouseOut="this.src='../../static/img/jingdong.png'"
               />
               <div class="intro">京东旗舰店</div>
             </a>
@@ -78,16 +84,32 @@
               <img src="../../static/img/tianmao.png" style="width:1.4rem" />
               <div class="intro">天猫旗舰店</div>
             </a>
-          </el-col> -->
+          </el-col>-->
         </el-row>
       </div>
     </div>
 
-    <div class="maxscreen" style="margin-bottom:2.03rem">
+    <div class="maxscreen">
       <!-- <img src='../../static/img/connect-jion.png'> -->
-      <div class="title">加入我们</div>
+      <div class="title" style="padding-top:0">加入我们</div>
       <div class="text">～ 加入善之道 成为合伙人 ～</div>
-      <div class='text'>简历请发送至HR邮箱:<a href="mailto:zzcy_hr@sina.com">zzcy_hr@sina.com</a></div>
+      <div class="map-join">
+        <div style="display:flex;align-items: center;">
+          <img src="'../../static/img/dizhi.png" style="width:0.5rem;height:0.5rem" />
+          <span class="map-join-right">
+            <div class="adr-con">公司地址</div>
+            <div class="adr-con1">湖南省长沙市开福区玛丽莱珠宝大厦10楼</div>
+          </span>
+        </div>
+        <div class="tel-right">
+          <img src="'../../static/img/tel.png" style="width:0.5rem;height:0.5rem" />
+          <span class="map-join-right">
+            <div class="adr-con">联系方式</div>
+            <div class="adr-con1">400-633-8918</div>
+          </span>
+        </div>
+      </div>
+
       <!-- <el-form :model="form" label-width="100px" ref="form" style="width:50%;margin:0 auto">
         <el-form-item label="姓名：">
           <el-input></el-input>
@@ -99,7 +121,7 @@
           <el-input></el-input>
         </el-form-item>
       </el-form>
-      <el-button style="background:rgba(201,160,99,1);color:#ffffff;width:1.3rem">申请加入</el-button> -->
+      <el-button style="background:rgba(201,160,99,1);color:#ffffff;width:1.3rem">申请加入</el-button>-->
     </div>
     <!-- 小屏幕 -->
     <div class="minscreen" style="margin-top:1.12rem;">
@@ -117,9 +139,11 @@
           <div class="intro">微信公众号</div>
         </el-col>
         <el-col :span="12" style="margin-bottom:0.79rem">
-          <a  target="_blank">
-            <img src="../../static/img/weibo.png" style="width:1.4rem" 
-             onMouseOver="this.src='../../static/img/qidai.png'"
+          <a target="_blank">
+            <img
+              src="../../static/img/weibo.png"
+              style="width:1.4rem"
+              onMouseOver="this.src='../../static/img/qidai.png'"
               onMouseOut="this.src='../../static/img/weibo.png'"
             />
             <div class="intro">新浪官方微博号</div>
@@ -135,9 +159,11 @@
           <div class="intro">抖音认证号</div>
         </el-col>
         <el-col :span="12">
-          <a  target="view_window">
-            <img src="../../static/img/toutiao.png" style="width:1.4rem" 
-            onMouseOver="this.src='../../static/img/qidai.png'"
+          <a target="view_window">
+            <img
+              src="../../static/img/toutiao.png"
+              style="width:1.4rem"
+              onMouseOver="this.src='../../static/img/qidai.png'"
               onMouseOut="this.src='../../static/img/toutiao.png'"
             />
             <div class="intro">今日头条认证号</div>
@@ -145,44 +171,68 @@
         </el-col>
       </el-row>
     </div>
-    <div class="minscreen" style="width:100%;height:5.57rem;background:rgba(250,250,250,1);margin-top:1.02rem">
-        <div class="title" >购买渠道</div>
-        <!-- <img src='../../static/img/connect-buy-channel.png'> -->
-        <div class="text">更多优质产品购买 请认准官方渠道～</div>
-        <!-- el-row临时修改 后面style 可以删掉 -->
-        <el-row style="width:60%;margin:0 auto">
-          <el-col :span="12">
+    <div
+      class="minscreen"
+      style="width:100%;height:5.57rem;background:rgba(250,250,250,1);margin-top:1.02rem"
+    >
+      <div class="title">购买渠道</div>
+      <!-- <img src='../../static/img/connect-buy-channel.png'> -->
+      <div class="text">更多优质产品购买 请认准官方渠道～</div>
+      <!-- el-row临时修改 后面style 可以删掉 -->
+      <el-row style="width:60%;margin:0 auto">
+        <el-col :span="12">
+          <img
+            src="../../static/img/shanzhidao_img.png"
+            style="width:1.4rem"
+            onMouseOver="this.src='../../static/img/qidai.png'"
+            onMouseOut="this.src='../../static/img/shanzhidao_img.png'"
+          />
+          <div class="intro">善之道茶油坊</div>
+        </el-col>
+
+        <el-col :span="12">
+          <a target="view_window">
             <img
-              src="../../static/img/shanzhidao_img.png"
+              src="../../static/img/jingdong.png"
               style="width:1.4rem"
               onMouseOver="this.src='../../static/img/qidai.png'"
-              onMouseOut="this.src='../../static/img/shanzhidao_img.png'"
-            />
-            <div class="intro">善之道茶油坊</div>
-          </el-col>
-
-          <el-col :span="12">
-            <a  target="view_window">
-              <img src="../../static/img/jingdong.png" style="width:1.4rem" 
-               onMouseOver="this.src='../../static/img/qidai.png'"
               onMouseOut="this.src='../../static/img/jingdong.png'"
-              />
-              <div class="intro">京东旗舰店</div>
-            </a>
-          </el-col>
-          <!-- <el-col :span="8">
+            />
+            <div class="intro">京东旗舰店</div>
+          </a>
+        </el-col>
+        <!-- <el-col :span="8">
             <a href="http://www.tmall.com" target="view_window">
               <img src="../../static/img/tianmao.png" style="width:1.4rem" />
               <div class="intro">天猫旗舰店</div>
             </a>
-          </el-col> -->
-        </el-row>
-      </div>
-       <div class="minscreen" style="margin-bottom:1rem">
+        </el-col>-->
+      </el-row>
+    </div>
+    <div class="minscreen" style="margin-bottom:0.3rem">
       <!-- <img src='../../static/img/connect-jion.png'> -->
-      <div class="title">加入我们</div>
+      <div class="title" style="margin-top:0">加入我们</div>
       <div class="text">～ 加入善之道 成为合伙人 ～</div>
-      <div class='text'>简历请发送至HR邮箱:<a href="mailto:zzcy_hr@sina.com">zzcy_hr@sina.com</a></div>
+      <div >
+        <div class="min-tel">
+          <img src="'../../static/img/dizhi.png" class="img" />
+          <span class="map-join-right">
+            <div class="adr-con">公司地址</div>
+            <div class="adr-con1">湖南省长沙市开福区玛丽莱珠宝大厦10楼</div>
+          </span>
+        </div>
+         
+        <div  style="margin-top:0.4rem">
+        
+          <a href="tel:4006338918" class="min-tel"> <img src="'../../static/img/tel.png" class="img"/>
+          <span class="map-join-right">
+            <div class="adr-con">联系方式</div>
+            <div class="adr-con1">400-633-8918</div>
+          </span>
+          </a>
+        </div>
+       
+      </div>
       <!-- <div class='text'>简历请发送至HR邮箱:<a href="mailto:zzcy_hr@sina.com">zzcy_hr@sina.com</a></div> -->
       <!-- <el-form :model="form" label-width="100px" ref="form" style="width:90%;margin:0 auto">
         <el-form-item style="display:flex;justify-content: flex-start;">
@@ -195,7 +245,7 @@
         <el-form-item label="联系电话">
           <el-input></el-input>
         </el-form-item>
-      </el-form> -->
+      </el-form>-->
       <!-- <div style="display:flex;justify-content: flex-start;font-size:0.28rem;font-weight:400;width:80%;margin:0 auto; align-items: center;">
           <span style="width:1.5rem;margin-right:0.1rem">姓&nbsp;&nbsp;名</span><el-input style="width：5.08rem"></el-input>
       </div>
@@ -209,34 +259,101 @@
       color:#ffffff;width:1.6rem;
       text-align:center;
       height:0.58rem;
-      font-size:0.26rem;border:none;border-radius:0.04rem;">申请加入</button> -->
+      font-size:0.26rem;border:none;border-radius:0.04rem;">申请加入</button>-->
     </div>
+    <div style="overflow: hidden;" class="map-min">
+      <b-map-component
+        :mapHeight="400"
+        :longitude="112.9930549241"
+        :latitude="28.2104560543"
+        :mapwidth="mapwidth"
+      ></b-map-component>
+    </div>
+
+    <!-- <div  >
+      <b-map-component-two :mapHeight="400" :longitude="112.9930549241" :latitude="28.2104560543" ></b-map-component-two>
+    </div>-->
   </div>
 </template>
+
+
 <script>
+import BMapComponent from "../components/map";
+import BMapComponentTwo from "../components/map1";
+
 export default {
   name: "contact",
+  components: {
+    BMapComponent,
+    BMapComponentTwo
+  },
+
   data() {
     return {
-      form: {}
+      form: {},
+      mapwidth: 12
     };
   }
 };
 </script>
 <style lang="less" scoped>
 .intro {
-   
   font-size: 0.14rem;
   font-family: \5b8b\4f53, tahoma, arial, sans-serif;
   font-weight: 400;
   color: rgba(51, 51, 51, 1);
 }
 @media only screen and (max-width: 750px) {
-  .intro{
+  .map-min{
+    width:90%;
+    margin:0 auto;
+    height:5rem;
+  }
+  .min-tel{
+    display:flex;
+    flex-direction: column;
+    font-size:0.22rem;
+    text-align:left;
+    margin:0 auto;
+    justify-content: center;
+    margin-bottom:0.5rem;
+    .img{
+      width:0.9rem;
+      height:0.9rem;
+      margin:0 auto
+
+    }
+  }
+  .map-join-right{
+    width:100%;
+    text-align: center;
+    
+    .adr-con{
+      font-size:0.32rem;
+    color:rgba(43,43,43,1);
+    line-height:0.39rem;
+      margin:0.3rem 0 0.18rem;
+    }
+    .adr-con1{
+      font-size:0.26rem;
+      font-weight:400;
+      color:rgba(102,102,102,1);
+    }
+  }
+  .max-screen {
+    display: none;
+  }
+  .min-screen {
+    width: 100%;
+    height: 1rem;
+
+    overflow: hidden;
+  }
+  .intro {
     font-size: 0.26rem;
     font-family: \5b8b\4f53, tahoma, arial, sans-serif;
-  font-weight: 400;
-  color: rgba(51, 51, 51, 1);
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
   }
   .maxscreen {
     // margin-top: 0.8rem;
@@ -271,13 +388,44 @@ export default {
   }
 }
 @media only screen and (min-width: 751px) {
+  .min-screen {
+    display: none;
+  }
+  .map-join {
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    box-sizing: border-box;
+    overflow: hidden;
+    align-items: center;
+  }
+  .map-join-right {
+    width: 5rem;
+    text-align: left;
+    margin-left: 0.1rem;
+  }
+  .tel-right {
+    display: flex;
+    align-items: center;
+  }
+  .adr-con {
+    font-size: 0.18rem;
+    font-weight: 400;
+    color: rgba(43, 43, 43, 1);
+    line-height: 0.39rem;
+  }
+  .adr-con1 {
+    font-size: 0.14rem;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+  }
   .text {
-      font-size: 0.14rem;
-      font-family: \5b8b\4f53, tahoma, arial, sans-serif;
-      font-weight: 400;
-      color: rgba(102, 102, 102, 1);
-      margin-bottom: 0.89rem;
-    }
+    font-size: 0.14rem;
+    font-family: \5b8b\4f53, tahoma, arial, sans-serif;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    margin-bottom: 0.89rem;
+  }
   .minscreen {
     display: none;
   }
@@ -314,7 +462,7 @@ a.div {
   img {
     width: 100%;
   }
-  
+
   background: rgba(255, 255, 255, 1);
 }
 .maxscreen {
