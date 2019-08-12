@@ -34,10 +34,10 @@
                     <div style="text-align:left;margin-bottom:0.23rem">
                       <p
                         style="font-size:0.26rem;color:#333333;text-align:left;font-weight:900;font-family:\5b8b\4f53,tahoma,arial,sans-serif;"
-                      >善之道100%纯正山茶油 乐享系列 限量尊享</p>
-                      <p
-                        style="font-size:0.26rem;color:#333333;padding:0.05rem;text-align:left;font-weight:900;font-family:\5b8b\4f53,tahoma,arial,sans-serif;"
-                      >百年老树 万粒挑一</p>
+                      >善之道100%纯正山茶油 乐享系列 限量尊享 百年老树 万粒挑一</p>
+                      <!-- <p
+                        style="font-size:0.26rem;color:#333333;padding:0.05rem 0;text-align:left;font-weight:900;font-family:\5b8b\4f53,tahoma,arial,sans-serif;"
+                      >百年老树 万粒挑一</p> -->
                     </div>
 
                     <ul class="cycpul">
@@ -68,10 +68,10 @@
                         </p>
                       </div>
                     </div>
-                    <div style="width:160px;height:30px;">
+                    <div style="width:1.60rem;height:0.4rem;">
                       <div
                         @click.stop="lookMore"
-                        style="cursor: pointer;height:30px;line-height:30px;margin-top:30px;width:100px;background:rgba(201, 169, 99, 1);font-size:12px;border-radius:4px;
+                        style="cursor: pointer;height:0.4rem;line-height:0.4rem;margin-top:0.3rem;width:1.3rem;background:rgba(201, 169, 99, 1);font-size:0.12rem;border-radius:0.04rem;
                 color:white;float:left"
                       >查看更多</div>
                     </div>
@@ -88,10 +88,12 @@
                     <div style="text-align:left;margin-bottom:0.23rem">
                       <p
                         style="font-size:0.26rem;color:#333333;text-align:left;font-weight:900;font-family:\5b8b\4f53,tahoma,arial,sans-serif;"
-                      >善之道100%纯正山茶油 乐享系列 限量尊享</p>
-                      <p
-                        style="font-size:0.26rem;color:#333333;padding:0.05rem;text-align:left;font-weight:900;font-family:\5b8b\4f53,tahoma,arial,sans-serif;"
-                      >百年老树 万粒挑一</p>
+                      >
+                            善之道100%纯正山茶油 纯善系列 悦享品质 源于天然 将爱传递
+                        </p>
+                      <!-- <p
+                        style="font-size:0.26rem;color:#333333;padding:0.05 0rem;text-align:left;font-weight:900;font-family:\5b8b\4f53,tahoma,arial,sans-serif;"
+                      >源于天然 将爱传递</p> -->
                     </div>
 
                     <ul class="cycpul">
@@ -122,11 +124,11 @@
                         </p>
                       </div>
                     </div>
-                    <div style="width:160px;height:30px;">
+                    <div style="width:1.60rem;height:0.4rem;">
                       <div
                         @click.stop="lookMore2"
-                        style="cursor: pointer;height:30px;line-height:30px;margin-top:30px;width:100px;background:rgba(201, 169, 99, 1);font-size:12px;border-radius:4px;
-                color:white;float:left;"
+                        style="cursor: pointer;height:0.4rem;line-height:0.4rem;margin-top:0.3rem;width:1.3rem;background:rgba(201, 169, 99, 1);font-size:0.12rem;border-radius:0.04rem;
+                color:white;float:left"
                       >查看更多</div>
 
                       <!-- <img src="../../static/img/laoxiangnong_xiaochengxu.png" v-show="this.isshow1"/> -->
@@ -165,8 +167,9 @@
                       <router-link :to="{name: 'about'}">
                         <p
                           style="
+                          border-radius:0.04rem;
                   width:5.38rem;
-                  height:0.3rem;line-height:0.3rem;margin:0.3rem 0;width:1rem;background:rgba(194, 161, 107, 1);font-size:0.1rem;color:white"
+                  height:0.4rem;line-height:0.4rem;margin:0.3rem 0;width:1.3rem;background:rgba(194, 161, 107, 1);font-size:0.1rem;color:white"
                         >查看更多</p>
                       </router-link>
                     </div>
@@ -185,7 +188,9 @@
                       </p>
                       <!-- <router-link :to="{name: 'information'}">
                         <p
-                          style="height:0.3rem;line-height:0.3rem;margin:0.3rem;width:1rem;background:rgba(194, 161, 107, 1);font-size:0.1rem;color:white"
+                          style="
+                          border-radius:4px;
+                          height:0.3rem;line-height:0.3rem;margin:0.3rem;width:1rem;background:rgba(194, 161, 107, 1);font-size:0.1rem;color:white"
                         >查看更多</p>
                       </router-link> -->
                     </div>
@@ -339,7 +344,7 @@
               <span class="min_ping">7ml * 40瓶</span>
             </div>
             <div>
-              <p class="min_sp_script">善之道100%纯正山茶油 乐享系列 限量尊享百年老树 万粒挑一</p>
+              <p class="min_sp_script">善之道100%纯正山茶油 乐享系列 限量尊享 百年老树 万粒挑一</p>
             </div>
 
             <ul class="cycpul_min">
@@ -421,7 +426,9 @@
               <span class="min_ping">50ml * 10瓶</span>
             </div>
             <div>
-              <p class="min_sp_script">善之道100%纯正山茶油 乐享系列 限量尊享百年老树 万粒挑一</p>
+              <p class="min_sp_script">
+                            善之道100%纯正山茶油 纯善系列 悦享品质 源于天然 将爱传递
+                        </p>
             </div>
 
             <ul class="cycpul_min">
@@ -486,11 +493,11 @@
         <!-- <div class="line"></div> -->
         <div class="partTowTitle_min">合伙加入</div>
         <p class="home_card_small_title">一起成为茶油的推动人</p>
-        <p class="home_card_small_content">
+        <p class="home_card_small_content" style="margin-bottom:0.2rem">
           线上线下的高度融合，每一个渠道都是善之道与消费者连通的触点，让我们满足消费者需求的同时，
           让每一个客户都能随时随地地享受善之道提供的高品质服务，共同推进茶油事业的发展。
         </p>
-        <img src="../../static/min_img/join.png" style="width:0.71rem;vertical-align:center" />
+        <img src="../../static/min_img/join.png" style="width:1.41rem;vertical-align:center" />
       </div>
       <div class="home_card">
         <!-- <div class="line"></div> -->
@@ -499,18 +506,18 @@
         <p class="home_card_small_content">关注官方微信公众号，可注册成为会员，根据您的消费情况定级并提供会员专享服务。</p>
         <img
           src="../../static/min_img/huiyuan.png"
-          style="width:1.78rem;vertical-align:center;margin-top:0.47rem"
+          style="width:1.71rem;vertical-align:center;margin-top:0.47rem"
         />
       </div>
 
       <div class="home_card">
-        <p class="partTowTitle_min2">购买方式</p>
-        <p class="partTowTitle_min2_2">多种购买方式任君挑选</p>
+        <p class="partTowTitle_min">购买方式</p>
+        <p class="home_card_small_title">多种购买方式任君挑选</p>
         <p class="partTowTitle_min2_3">京东商城</p>
         <p class="partTowTitle_min2_3">善之道小程序</p>
         <img
           src="../../static/min_img/buy.png"
-          style="width:2.2rem;vertical-align:center;margin-top:0.47rem"
+          style="width:1.71rem;vertical-align:center;margin-top:0.47rem"
         />
       </div>
       <!-- 第五部分 -->
@@ -861,11 +868,10 @@ export default {
   .home_card_small_title {
     width: 100%;
     text-align: center;
-
     font-size: 0.26rem;
     font-family: \5b8b\4f53, tahoma, arial, sans-serif;
     font-weight: bold;
-    color: rgba(201, 160, 99, 1);
+    color: rgba(201, 160, 99, 1) !important;
   }
   .home_card_small_content {
     width: 5.39rem;
@@ -972,7 +978,7 @@ export default {
   .partTowTitle_min {
     width: 100%;
     height: 0.49rem;
-    font-size: 0.5rem;
+    font-size: 0.4rem;
     font-family: \5b8b\4f53, tahoma, arial, sans-serif;
     font-weight: 900;
     color: rgba(51, 51, 51, 1);
@@ -1041,7 +1047,7 @@ export default {
     margin-bottom: 0.31rem;
   }
   .min_sp_script {
-    width: 6.08rem;
+    width: 6.00rem;
     height: 0.7rem;
     font-size: 0.28rem;
     font-family: \5b8b\4f53, tahoma, arial, sans-serif;
@@ -1055,12 +1061,12 @@ export default {
     font-size: 0.12rem;
     text-align: left;
     width: 80%;
-    margin-left: 0.05rem;
+   
     list-style: none;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin-left: 0.74rem;
+    // margin-left: 0.74rem;
     margin-bottom: 0.48rem;
   }
   .cycpul_min_lie {

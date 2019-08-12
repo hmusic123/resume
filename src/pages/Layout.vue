@@ -561,6 +561,7 @@ export default {
     height: 90%;
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
   .layoutContent {
     font-family: \5b8b\4f53, tahoma, arial, sans-serif !important;
